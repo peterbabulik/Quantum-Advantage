@@ -38,8 +38,9 @@ We deployed the trained parameters from Experiment 1 to the **IBM Quantum Cloud*
 *   **Backend:** `ibm_fez` (A superconducting transmon processor).
 *   **Shots:** 4096 (Number of times the experiment was repeated to build the histogram).
 *   **Circuit Depth:** 22 (A relatively deep circuit, making it susceptible to noise).
-*   **Metric:** **Fidelity** ($F$), calculated as the overlap between the Ideal Simulation and the Physical Output:
-    $$ F = \left( \sum \sqrt{p_{sim} \cdot p_{real}} \right)^2 $$
+*   **Metric:** Fidelity ($F$), calculated as the overlap between the Ideal Simulation and the Physical Output:
+
+$$ F = \left( \sum \sqrt{p_{\text{sim}} \cdot p_{\text{real}}} \right)^2 $$
 
 ### 📊 Results & Analysis
 
